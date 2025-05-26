@@ -8,7 +8,7 @@ app.post('/order', async (req, res) => {
 
   console.log('Nuevo pedido recibido:', orderData);
 
-  const shopifyDomain = 'TU-TIENDA.myshopify.com'; // ← Reemplaza con tu dominio real
+  const shopifyDomain = 'cavelierofficial.myshopify.com'; // ← Reemplaza con tu dominio real
   const accessToken = process.env.SHOPIFY_TOKEN;
 
   const orderPayload = {
